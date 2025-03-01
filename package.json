@@ -1,0 +1,29 @@
+{
+  "name": "langchainlearningproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/llm.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/llm.js",
+    "build": "tsc",
+    "dev": "ts-node src/llm.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LAQ27504/LangchainLearningProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LAQ27504/LangchainLearningProject/issues"
+  },
+  "homepage": "https://github.com/LAQ27504/LangchainLearningProject#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
