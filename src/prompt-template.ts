@@ -24,20 +24,6 @@ async function main(){
     )
     console.log(response)
 
-    const prompt_messgae = ChatPromptTemplate.fromMessages([
-        ["system", "Generate a joke based on a word provided by the user."],
-        ["human", "{input1}"],
-    ])
-
-    const chain_message = prompt.pipe(model);
-
-    const response_message = await chain_message.invoke(
-        {
-            "input": "Human"
-        }
-    )
-
-    console.log(response_message)
 }
 
 main()
